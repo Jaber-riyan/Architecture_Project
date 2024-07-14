@@ -21,6 +21,19 @@ li {
 .flex {
   display: flex;
 }
+.btn-primary {
+  width: 7rem;
+  height: 2.9rem;
+  border-radius: 0.5rem;
+  background: rgb(255, 144, 14);
+  border: none;
+  margin-bottom: 2.1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.btn-primary:hover {
+  background: rgb(255, 175, 83);
+}
 
 /* shared items end  */
 
@@ -83,18 +96,33 @@ header {
   line-height: 1.5rem;
   margin-bottom: 1.5rem;
 }
-.btn-primary {
-  width: 7rem;
-  height: 2.9rem;
-  border-radius: 0.5rem;
-  background: rgb(255, 144, 14);
-  border: none;
-  margin-bottom: 2.1rem;
-  font-size: 0.8rem;
-  font-weight: 600;
-}
-.btn-primary:hover {
-    background: rgb(255, 175, 83);
-}
+
 /* banner section end */
 /* header section end */
+
+
+
+
+/* media query code for responsive  */
+
+@media screen and (max-width: 576px) {
+  .navbar, .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar {
+    margin-bottom: 7rem;
+    width: 100%;
+  }
+  header {
+    height: 100%;
+  }
+  .brand {
+    margin-bottom: 1rem;
+  }
+  .banner {
+    width: 100%;
+    padding: 0.5rem 1rem;
+  }
+  
+}
