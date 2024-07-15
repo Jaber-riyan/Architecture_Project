@@ -270,6 +270,21 @@ header {
 /* our sponsor end */
 /* main section end */
 
+/* footer section start  */
+footer {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  background-color: rgb(255, 244, 231);
+  padding: 2rem 0rem;
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 0.8;
+  border-radius: 0.5rem;
+}
+/* footer section start end */
+
 /* media query code for responsive  */
 
 @media screen and (max-width: 576px) {
