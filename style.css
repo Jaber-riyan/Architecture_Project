@@ -167,6 +167,7 @@ header {
   flex-direction: column;
   justify-content: center;
   padding: 1.9rem 1.9rem;
+  width: 80%;
   /* align-items: center; */
 }
 .title-content span {
@@ -230,14 +231,30 @@ header {
     padding: 0.6rem 2rem;
   }
   .feature-love-enjoy {
-    flex-direction: column;
-    padding: 0rem 2rem;
+    flex-direction: column-reverse;
+    /* padding: 0rem 4rem; */
     gap: 3rem;
-    margin: 0 auto;
     background-color: white;
     margin-bottom: 4rem;
+    width: 80%;
+  }
+  .title-content h1{
+    font-size: 2rem;
+    
+  }
+  .card {
+    /* margin-left: 1rem; */
+    width: 30rem;
+    height: 10rem;
+    width: 90%;
   }
   .title-content {
-    padding: 0rem 2rem;
+    padding: 0rem 1rem;
   }
-}
+  .feature-love-enjoy-banner-photo img {
+
+      width: 25rem;
+      height: 35rem;
+    
+  }
+} 
