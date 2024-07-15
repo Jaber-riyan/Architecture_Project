@@ -157,8 +157,8 @@ header {
   height: 40rem;
 }
 .card {
-  width: 36.625rem;
-  height: 8rem;
+  width: 37.625rem;
+  height: 10rem;
   border-radius: 0.5rem;
   box-shadow: 0px 2.25rem 2rem 0px rgba(0, 0, 0, 0.06);
   background: rgb(255, 255, 255);
@@ -201,6 +201,42 @@ header {
   color: rgba(0, 0, 0, 0.8);
 }
 /* feature love enjoy end */
+
+/* some facts  */
+.some-facts {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+.some-facts-text h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.some-facts-text p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 4rem;
+  opacity: 0.8;
+}
+.some-facts-card {
+  width: 12rem;
+  height: 12rem;
+  border: 1px solid rgb(255, 144, 14);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.8rem;
+}
+.some-facts-icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 2rem;
+}
+/* some facts end */
 /* main section end */
 
 /* media query code for responsive  */
@@ -238,9 +274,8 @@ header {
     margin-bottom: 4rem;
     width: 80%;
   }
-  .title-content h1{
+  .title-content h1 {
     font-size: 2rem;
-    
   }
   .card {
     /* margin-left: 1rem; */
@@ -252,9 +287,15 @@ header {
     padding: 0rem 1rem;
   }
   .feature-love-enjoy-banner-photo img {
-
-      width: 25rem;
-      height: 35rem;
-    
+    width: 25rem;
+    height: 35rem;
   }
-} 
+  .some-facts-icons {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .some-facts-card {
+    width: 11rem;
+    height: 11rem;
+  }
+}
